@@ -1,0 +1,33 @@
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  color: #bababa;
+  background: #aaaaaa32;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.items__text {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background: #aaaaaa32;
+  transition: 0.3s;
+}
+
+.isChecked {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
